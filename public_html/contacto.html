@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+         <div id="cabecera">
+            Restaurante</br>
+            "Cobalto" </br>
+            
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li></li>
+                <li><a href="index.html">Quienes somos</a></li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        <div id="formulario">
+            <h1> Reserva o contáctanos...</h1>
+            <form>
+                <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                <div>
+                <label for="telefono"> Teléfono: </label>
+                <input type="text" id="telefono"/>
+                </div>
+                <div>
+                <label for="correo"> eMail: </label>
+                <input type="email" id="email"/>
+                </div>
+                <div>
+                <label for="asunto"> Reservas: </label>
+                <select id="asunto" name="asunto">
+                    <option value="" selected="selected"> Mesa #</option>
+                    <option value="Informacion"> Menú</option>
+                    <option value="Cotiza" > Solicitar cotización</option>
+         
+              <option value="otro"> Otro</option>
+                </select>
+                </div>
+               
+                <div>
+                 <label for="mensaje"> Mensaje: </label> 
+                 <textarea id="msg" cols="80" rows="10"></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit"> Enviar</button>
+                </div>
+            </form>
+        </div>
+        </br>
+        <div id="pie">
+            Calle 1ra #25 Jardines del Cerro. Santiago de los Caballeros Republica Dominicana.</br>
+            Tel. 829-581-1234 y 809-583-1234</br>
+            <img src="imagenes/facebook2.png" width= 30 height=30 alt=""/>
+            <img src="imagenes/Twitter.png" width= 30 height=30 alt=""/>
+            <img src="imagenes/instagram.png" width= 30 height=30 alt=""/>
+
+        </div>
+        
+    </body>
+</html>

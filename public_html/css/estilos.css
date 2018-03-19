@@ -44,12 +44,13 @@ ul li{
     form{
       margin: 0 auto;
       width:700px;
-      background:  chartreuse;
+      background:#1276A8;
       padding: 5px;
       border-radius: 10px;
     }
     h1{
         text-align: center;
+        font-family: Candara;
     }
     form div{
         margin-bottom: 5px;
