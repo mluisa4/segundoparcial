@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 #cabecera{
     font-family: Engravers MT;
-    font-size: 40px;
+    font-size: 32px;
     color:#1276A8;
     text-align: center;
 }
@@ -20,7 +20,7 @@ ul li{
     font-weight: bold;
     font-family: Forte;
     background: #1276A8;
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
     
     }
@@ -33,13 +33,13 @@ ul li{
     #cuerpo{
         text-align: center;
         font-family: Candara;
-        font-size: 28px;
+        font-size: 22px;
         color: #1276A8;
     } 
     #pie{
-        background: #DAF7A6;
+        background: #8DBDD5;
         text-align: center;
-        font-weight: bold;
+        font-weight: candara;
     }
     form{
       margin: 0 auto;
