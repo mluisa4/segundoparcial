@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 5, 2018, 6:57:17 PM
+    Author     : c.rosario
+*/
+#cabecera{
+    font-family: Engravers MT;
+    font-size: 40px;
+    color:#1276A8;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display:inline;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Forte;
+    background: #1276A8;
+    padding: 15px;
+    border-radius: 20px;
+    
+    }
+    #menu{
+        text-align: center;
+    } 
+    img{
+        border-radius: 20px;
+    } 
+    #cuerpo{
+        text-align: center;
+        font-family: Candara;
+        font-size: 28px;
+        color: #1276A8;
+    } 
+    #pie{
+        background: #DAF7A6;
+        text-align: center;
+        font-weight: bold;
+    }
+    form{
+      margin: 0 auto;
+      width:700px;
+      background:  chartreuse;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    form div{
+        margin-bottom: 5px;
+    }
+    label{
+        font-family: Forte;
+        width:100px;
+        text-align: right;
+        display:inline;
+    }
+    input{
+        width: 200px;
+    }
+    textArea{
+        width: 400px;
+        vertical-align: middle;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+      color:#196F#D;
+      font-size: 30px;
+    }
+    a:visited{
+        color:blue;
+    }
