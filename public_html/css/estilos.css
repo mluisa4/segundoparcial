@@ -42,10 +42,10 @@ ul li{
         font-weight: candara;
     }
     form{
-      margin: 0 auto;
+      margin: 1em;
       width:700px;
       background:#1276A8;
-      padding: 5px;
+      padding: 2px;
       border-radius: 10px;
     }
     h1{
@@ -57,12 +57,12 @@ ul li{
     }
     label{
         font-family: Forte;
-        width:100px;
-        text-align: right;
+        width:150px;
+        text-align: left;
         display:inline;
     }
     input{
-        width: 200px;
+        width: 250px;
     }
     textArea{
         width: 400px;
@@ -72,9 +72,9 @@ ul li{
         text-decoration: none;
     }
     a:hover{
-      color:#196F#D;
+      color:ROJO;
       font-size: 30px;
     }
     a:visited{
-        color:blue;
+        color:Rojo;
     }
